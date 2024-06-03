@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  padding-top: 94px;
+  justify-content: center;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 57px;
+  align-self: center;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: bold;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+.formWrapper {
+  width: 315px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+}

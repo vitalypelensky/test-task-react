@@ -1,0 +1,18 @@
+.button {
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 17px 90px;
+  border-radius: 30px;
+  background: linear-gradient(to bottom right, #70C3FF, #4B65FF);
+}
+
+.button:enabled:active {
+  background: linear-gradient(to bottom right, rgba(#70C3FF, 0.7), rgba(#4B65FF, 0.7));
+}
+
+.disabled {
+  background: linear-gradient(to bottom right, silver, silver);
+}
